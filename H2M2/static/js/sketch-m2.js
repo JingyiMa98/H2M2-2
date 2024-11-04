@@ -62,9 +62,9 @@ function startSpeaking(){
         switch (suggestions_style) {
             case "Light":
                 selectedImg = lightImg;
-                speech.setVoice(0);
-                speech.setPitch(0.01);
-                speech.setRate(0.5);
+                speech.setVoice(1);
+                speech.setPitch(1);
+                speech.setRate(1);
                 break;
             case "Watering":
                 selectedImg = wateringImg;
@@ -75,24 +75,24 @@ function startSpeaking(){
             case "Humidity":
                 selectedImg = humidityImg;
                 speech.setVoice(1);
-                speech.setPitch(1.5);
-                speech.setRate(1.5);
+                speech.setPitch(1);
+                speech.setRate(1);
                 break;
             case "Temperature":
                 selectedImg = temperatureImg;
-                speech.setVoice(2);
-                speech.setPitch(2);
+                speech.setVoice(1);
+                speech.setPitch(1);
                 speech.setRate(1);
                 break;
             case "Pruning":
                 selectedImg = pruningImg;
-                speech.setVoice(0);
-                speech.setPitch(2);
+                speech.setVoice(1);
+                speech.setPitch(1);
                 speech.setRate(1);
                 break;
             case "Propagation":
                 selectedImg = propagationImg;
-                speech.setVoice(2);
+                speech.setVoice(1);
                 speech.setPitch(1);
                 speech.setRate(1);
                 break;
