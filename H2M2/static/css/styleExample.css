@@ -1,14 +1,14 @@
 /* Your Custom Style Sheet Goes here */
 .custom-stop-btn {
-    background-color: transparent; /* 背景透明 */
-    color: blue; /* 文本颜色 */
-    border: 2px solid blue; /* 蓝色边框 */
-    border-radius: 4px; /* 可选：设置圆角 */
-    padding: 5px 10px; /* 可选：设置内边距 */
-    cursor: pointer; /* 鼠标悬停时显示手型 */
+    background-color: transparent; 
+    color: blue;
+    border: 2px solid blue; 
+    border-radius: 4px;
+    padding: 5px 10px; 
+    cursor: pointer;
 }
 
 .custom-stop-btn:hover {
-    background-color: blue; /* 悬停时背景变蓝 */
-    color: white; /* 悬停时文本变白 */
+    background-color: blue; 
+    color: white; 
 }
