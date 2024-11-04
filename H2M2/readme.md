@@ -1,23 +1,42 @@
-## General Notes for Running this Flask App!:
----
-To run the tool locally download the code and follow the steps below:
-- Open command prompt & change directory to the project folder `cd <folder_path>`
-- make sure your Python version >= 3.12 
-- Set up a virtual environment for python, in the command prompt:
-    - For Windows- 
-        - run `python -m venv .venv`
-        - to activate the virtual envirnoment- `.venv\Scripts\activate.bat`
-    - For MAC- 
-        - first run `pip install virtualenv`
-        - then `virtualenv .venv`
-        - to activate the virtual envirnoment- `source .venv/bin/activate`
-    - note- ".venv" is the name of the environment, so you can use whatever name you want.
+Garden Fairy
+Garden Fairy is an AI-powered plant care assistant that provides expert gardening guidance. Through advanced machine learning, it analyzes plant images and generates professional care recommendations.
+Features
+Plant Whisperer provides tailored advice on:
 
-- Once the virtual environment is active then (* only if you are running the app for the first time/or there is a change in requirements.txt on the device, otherwise skip this step*) `pip install -r requirements.txt`
+Light requirements
+Watering schedules
+Humidity needs
+Temperature preferences
+Pruning techniques
+Propagation methods
 
-- create ".env" file to store all the environment variables for Flask, Huggingface, OpenAI & Langchain. Copy this code into the ".env" file-
-    - `FLASK_APP = app`
-    - `FLASK_RUN_PORT = 8080`
-    - `FLASK_DEBUG = True`
-    - `HF_TOKEN = ""`
-    - `OPENAI_API_KEY = ""`
+Dependencies
+
+Python 3.12+
+Flask
+OpenAI API key
+Hugging Face account and API token
+Key packages: transformers, langchain, pandas, chromadb
+
+Quick Setup
+
+Create and activate a Python virtual environment
+Install required packages: pip install -r requirements.txt
+Create .env file with your API keys:
+CopyOPENAI_API_KEY=your_key
+HUGGINGFACEHUB_API_TOKEN=your_token
+
+
+Running the Application
+
+Start the server: python app.py
+Open web browser and navigate to http://127.0.0.1:8000/milestone2
+Upload a plant image
+Select the type of care advice needed
+Receive personalized plant care recommendations
+
+Notes
+
+Ensure stable internet connection for API access
+First-time setup will download required ML models
+Image uploads are temporarily stored in static/imgs folder
