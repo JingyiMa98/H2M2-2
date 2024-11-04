@@ -30,6 +30,7 @@ HUGGINGFACEHUB_API_TOKEN=your_token
 Running the Application
 
 Start the server: python app.py
+Youtube Video Link: https://youtu.be/GEKVFv-oUX4
 Open web browser and navigate to http://127.0.0.1:8000/milestone2
 Upload a plant image
 Select the type of care advice needed
